@@ -16,6 +16,8 @@ end
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 
+--There are some *A-isms in here, but they don't cause any issues, so I don't see the point in removing them and making some poor sap recreate them for his game.
+
 if (not gadgetHandler:IsSyncedCode()) then
   return false  --  silent removal
 end

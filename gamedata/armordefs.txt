@@ -1,4 +1,5 @@
-return {
+--These are entirely optional
+
 	bombers = {
 		"chickenf1",
 		"chickenf1b",
@@ -60,4 +61,3 @@ return {
 		"chickenp1",
 		"roost",
 	},
-}

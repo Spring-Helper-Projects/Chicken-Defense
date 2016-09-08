@@ -3,7 +3,7 @@
 
 function gadget:GetInfo()
   return {
-    name      = "BA Chicken Spawner",
+    name      = "Chicken Defense Spawner",
     desc      = "Spawns burrows and chickens",
     author    = "TheFatController/quantum",
     date      = "27 February, 2012",

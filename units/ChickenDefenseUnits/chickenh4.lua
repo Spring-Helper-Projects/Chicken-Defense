@@ -82,7 +82,7 @@ return {
 				range = 90,
 				reloadtime = 0.4,
 				size = 0,
-				soundstart = "smallchickenattack",
+				soundstart = "ChickenDefenseSounds/smallchickenattack",
 				targetborder = 1,
 				tolerance = 5000,
 				turret = true,

@@ -81,7 +81,7 @@ return {
 				impulsefactor = 0.4,
 				interceptedbyshieldtype = 2,
 				metalpershot = 0,
-				model = "AgamAutoBurst.s3o",
+				model = "ChickenDefenseModels/AgamAutoBurst.s3o",
 				name = "Missiles",
 				noselfdamage = true,
 				range = 420,

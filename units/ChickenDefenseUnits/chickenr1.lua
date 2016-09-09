@@ -94,7 +94,7 @@ return {
 				rgbcolor = "0.2 0.5 0.9",
 				size = 9,
 				sizedecay = 0,
-				soundhit = "junohit2edit",
+				soundhit = "ChickenDefenseSounds/junohit2edit",
 				sprayangle = 512,
 				tolerance = 5000,
 				turret = true,

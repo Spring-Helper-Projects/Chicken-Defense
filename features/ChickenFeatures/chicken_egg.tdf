@@ -11,7 +11,7 @@
   height=30;
   hitdensity=999999;
   metal=25;
-  object=chickenegg.s3o;
+  object=ChickenDefenseModels/chickenegg.s3o;
   reclaimable=1;
   seqnamereclamate=TREE1RECLAMATE;
   world=All Worlds;
@@ -29,7 +29,7 @@
   height=30;
   hitdensity=999999;
   metal=25;
-  object=chickeneggb.s3o;
+  object=ChickenDefenseModels/chickeneggb.s3o;
   reclaimable=1;
   seqnamereclamate=TREE1RECLAMATE;
   world=All Worlds;
@@ -47,7 +47,7 @@
   height=30;
   hitdensity=999999;
   metal=25;
-  object=chickeneggc.s3o;
+  object=ChickenDefenseModels/chickeneggc.s3o;
   reclaimable=1;
   seqnamereclamate=TREE1RECLAMATE;
   world=All Worlds;
@@ -65,7 +65,7 @@
   height=30;
   hitdensity=999999;
   metal=25;
-  object=chickeneggd.s3o;
+  object=ChickenDefenseModels/chickeneggd.s3o;
   reclaimable=1;
   seqnamereclamate=TREE1RECLAMATE;
   world=All Worlds;

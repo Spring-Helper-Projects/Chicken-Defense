@@ -106,7 +106,7 @@ return {
 				range = 310,
 				reloadtime = 0.7,
 				sizegrowth = 1.2,
-				soundstart = "Flamhvy1",
+				soundstart = "ChickenDefenseSounds/Flamhvy1",
 				soundtrigger = 0,
 				sprayangle = 1200,
 				targetmoveerror = 0.001,

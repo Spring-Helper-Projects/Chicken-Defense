@@ -107,7 +107,7 @@ return {
 				rgbcolor = "1 0.95 0.9",
 				rgbcolor2 = "0.9 0.85 0.8",
 				sizegrowth = 1.2,
-				soundstart = "Flamhvy1",
+				soundstart = "ChickenDefenseSounds/Flamhvy1",
 				soundtrigger = 0,
 				sprayangle = 1800,
 				targetmoveerror = 0.001,

@@ -22,7 +22,7 @@ return {
 		collisionvolumeoffsets = "0 8 -2",
 		collisionvolumescales = "70 14 48",
 		collisionvolumetype = "box",
-		corpse = "DEAD",
+		corpse = "chicken_egg",
 		cruisealt = 240,
 		defaultmissiontype = "Standby",
 		description = "Flying Chicken Bomber",
@@ -51,7 +51,7 @@ return {
 		steeringmode = "2",
 		tedclass = "VTOL",
 		turninplace = true,
-		turnrate = 900,
+		turnrate = 5000,
 		unitname = "chickenf1",
 		workertime = 0,
 		featuredefs = {

@@ -69,7 +69,7 @@ return {
 				range = 29999,
 				reloadtime = 5,
 				smoketrail = 1,
-				soundhit = "ChickenDefenseSounds/xplonuk4",
+				soundhit = "ChickenDefenseSounds/nuke4",
 				startvelocity = 2000,
 				turret = 1,
 				weaponacceleration = 120,

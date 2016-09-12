@@ -10,7 +10,7 @@ return {
 		builddistance = 90,
 		builder = true,
 		buildtime = 7000,
-		category = "NOTAIR NOTSUB NOTSHIP NOTHOVER ALL SURFACE",
+		category = "BIO",
 		collisionvolumeoffsets = "0 0 0",
 		collisionvolumescales = "56 11 56",
 		collisionvolumetype = "box",
@@ -77,7 +77,6 @@ return {
 				weaponvelocity = 2000,
 				wobble = 0,
 				damage = {
-					chicken = 10,
 					default = 6000,
 				},
 			},

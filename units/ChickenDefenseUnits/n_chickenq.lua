@@ -15,7 +15,7 @@ return {
 		canpatrol = true,
 		canstop = "1",
 		cantbetransported = true,
-		category = "MOBILE WEAPON NOTAIR NOTSUB NOTSHIP ALL NOTHOVER SURFACE",
+		category = "BIO",
 		collisionvolumeoffsets = "0 -52 15",
 		collisionvolumescales = "60 130 140",
 		collisionvolumetest = 1,
@@ -53,7 +53,7 @@ return {
 		trackstretch = 1,
 		tracktype = "ChickenTrack",
 		trackwidth = 100,
-		turninplace = 0,
+		turninplace = true,
 		turnrate = 400,
 		unitname = "n_chickenq",
 		upright = false,
@@ -104,16 +104,7 @@ return {
 				weapontimer = 0.2,
 				weaponvelocity = 400,
 				damage = {
-					chicken = 400,
 					default = 600,
-					gunships = 2800,
-					hgunships = 2800,
-					l1bombers = 9999,
-					l1fighters = 9999,
-					l2bombers = 9999,
-					l2fighters = 9999,
-					vtol = 9999,
-					vtrans = 9999,
 				},
 			},
 			melee = {
@@ -140,12 +131,7 @@ return {
 				weapontype = "Cannon",
 				weaponvelocity = 2500,
 				damage = {
-					bombers = 3000,
-					chicken = 0.001,
 					default = 750,
-					fighters = 3000,
-					tinychicken = 0.001,
-					vtol = 3000,
 				},
 			},
 			spores1 = {
@@ -190,10 +176,6 @@ return {
 				wobble = 64000,
 				damage = {
 					default = 145,
-					l1bombers = 225,
-					l1fighters = 225,
-					l2bombers = 285,
-					l2fighters = 285,
 				},
 			},
 			spores2 = {
@@ -238,10 +220,6 @@ return {
 				wobble = 64000,
 				damage = {
 					default = 145,
-					l1bombers = 225,
-					l1fighters = 225,
-					l2bombers = 285,
-					l2fighters = 285,
 				},
 			},
 			spores3 = {
@@ -286,10 +264,6 @@ return {
 				wobble = 64000,
 				damage = {
 					default = 145,
-					l1bombers = 225,
-					l1fighters = 225,
-					l2bombers = 285,
-					l2fighters = 285,
 				},
 			},
 		},

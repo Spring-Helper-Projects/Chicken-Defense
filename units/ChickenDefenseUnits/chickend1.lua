@@ -14,7 +14,7 @@ return {
 		canreclaim = true,
 		canrestore = false,
 		canstop = "1",
-		category = "WEAPON NOTAIR NOTSUB NOTSHIP ALL NOTHOVER SURFACE",
+		category = "BIO", --WEAPON NOTAIR NOTSUB NOTSHIP ALL NOTHOVER SURFACE",
 		collisionvolumeoffsets = "0 15 0",
 		collisionvolumescales = "14 50 14",
 		collisionvolumetype = "box",
@@ -101,7 +101,6 @@ return {
 				weaponvelocity = 500,
 				wobble = 32000,
 				damage = {
-					bombers = 500,
 					default = 400,
 				},
 			},

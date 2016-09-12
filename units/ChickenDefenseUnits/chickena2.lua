@@ -14,7 +14,7 @@ return {
 		canmove = true,
 		canpatrol = true,
 		canstop = "1",
-		category = "MOBILE WEAPON NOTAIR NOTSUB NOTSHIP ALL NOTHOVER SURFACE",
+		category = "BIO",
 		collisionvolumeoffsets = "0 10 2",
 		collisionvolumescales = "37 55 90",
 		collisionvolumetype = "box",
@@ -51,7 +51,7 @@ return {
 		trackstretch = 1,
 		tracktype = "ChickenTrack",
 		trackwidth = 38,
-		turninplace = 0,
+		turninplace = true,
 		turnrate = 468,
 		unitname = "chickena2",
 		upright = false,
@@ -106,10 +106,7 @@ return {
 				weaponvelocity = 700,
 				wobble = 32000,
 				damage = {
-					bombers = 1100,
 					default = 400,
-					fighters = 1500,
-					vtol = 1300,
 				},
 			},
 			weapon = {
@@ -135,9 +132,7 @@ return {
 				weapontype = "Cannon",
 				weaponvelocity = 700,
 				damage = {
-					chicken = 0.001,
 					default = 300,
-					tinychicken = 0.001,
 				},
 			},
 		},

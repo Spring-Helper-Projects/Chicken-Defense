@@ -9,10 +9,11 @@ function widget:GetInfo()
     date      = "Aug 07, 2011",
     license   = "MIT",
     layer     = -9, 
-    enabled   = true  --  loaded by default?
+    enabled   = false  --  loaded by default?
   }
 end
-
+local scoreMode = scoreModes[Spring.GetModOptions().chickens_enabled or "disabled"]
+if Spring.GetModOptions().chickens_enabled == "disabled" then return false end
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 

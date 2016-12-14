@@ -1,3 +1,7 @@
+--This assumes that you are using modern resources.lua, not resources.tdf!
+--If you aren't using resources.lua yet, you need to upgrade. You owe it to yourself and to your players.
+--If you don't upgrade, a bunch of the effects simply won't work
+
 -- Put these in "ProjectileTextures"
 	--Chicken Defense effects
 	uglynovaexplo='CC/uglynovaexplo.tga',

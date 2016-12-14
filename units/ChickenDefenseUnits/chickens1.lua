@@ -76,7 +76,7 @@ return {
 				collidefriendly = 0,
 				craterboost = 0,
 				cratermult = 0,
-				explosiongenerator = "custom:dirt",
+				explosiongenerator = "custom:chickenspike-large-sparks-burn",
 				firesubmersed = true,
 				impulseboost = 0.123,
 				impulsefactor = 0.123,
@@ -137,7 +137,7 @@ return {
 				badtargetcategory = "VTOL",
 				def = "WEAPON",
 				maindir = "0 0 1",
-				maxangledif = 120,
+				maxangledif = 180,
 			},
 			[2] = {
 				def = "WATERWEAPON",

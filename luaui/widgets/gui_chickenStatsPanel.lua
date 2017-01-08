@@ -4,8 +4,8 @@
 
 function widget:GetInfo()
   return {
-    name      = "Chicken Panel",
-    desc      = "Shows stuff",
+    name      = "Chicken Stats Panel",
+    desc      = "Shows statics and progress whhen fighting vs Chickens",
     author    = "quantum",
     date      = "May 04, 2008",
     license   = "GNU GPL, v2 or later",
@@ -61,7 +61,7 @@ local math            = math
 local table           = table
 
 local displayList
-local fontHandler     = loadstring(VFS.LoadFile(LUAUI_DIRNAME.."modfonts.lua", VFS.ZIP_FIRST))()
+local fontHandler     = loadstring(VFS.LoadFile(LUAUI_DIRNAME.."modfonts.lua"))()
 local panelFont       = LUAUI_DIRNAME.."Fonts/FreeSansBold_14"
 local waveFont        = LUAUI_DIRNAME.."Fonts/Skrawl_40"
 local panelTexture    = ":n:"..LUAUI_DIRNAME.."Images/panel.tga"

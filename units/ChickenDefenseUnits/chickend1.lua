@@ -5,11 +5,12 @@ return {
 		autoheal = 1,
 		bmcode = "0",
 		brakerate = 0.01,
-		buildcostenergy = 3000,
+		buildcostenergy = 1,
 		buildcostmetal = 120,
 		builddistance = 200,
 		builder = true,
-		buildtime = 1800,
+		buildpic = "chicken_unitpics/chickend1.png",
+		buildtime = 1,
 		canattack = true,
 		canreclaim = true,
 		canrestore = false,
@@ -66,6 +67,7 @@ return {
 		},
 		weapondefs = {
 			weapon = {
+				interceptedByShieldType   = 4,
 				areaofeffect = 32,
 				avoidfriendly = false,
 				collidefriendly = false,
@@ -109,6 +111,9 @@ return {
 			[1] = {
 				def = "WEAPON",
 			},
+		},
+		customparams = {
+			unittype = "mobile",
 		},
 	},
 }

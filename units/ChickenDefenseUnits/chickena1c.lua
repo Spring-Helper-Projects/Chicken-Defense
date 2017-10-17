@@ -4,10 +4,11 @@ return {
 		airsightdistance = 650,
 		bmcode = "1",
 		brakerate = 0.4,
-		buildcostenergy = 3520,
-		buildcostmetal = 152,
+		buildcostenergy = 1,
+		buildcostmetal = 45,
 		builder = false,
-		buildtime = 5000,
+		buildpic = "chicken_unitpics/chickena1c.png",
+		buildtime = 1,
 		canattack = true,
 		canguard = true,
 		canmove = true,
@@ -69,6 +70,7 @@ return {
 		},
 		weapondefs = {
 			aaweapon = {
+				interceptedByShieldType   = 4,
 				areaofeffect = 124,
 				avoidfriendly = false,
 				collidefriendly = false,
@@ -106,6 +108,7 @@ return {
 				},
 			},
 			weapon = {
+				interceptedByShieldType   = 4,
 				areaofeffect = 42,
 				avoidfeature = 0,
 				avoidfriendly = 0,
@@ -145,6 +148,9 @@ return {
 				def = "AAWEAPON",
 				onlytargetcategory = "VTOL",
 			},
+		},
+		customparams = {
+			unittype = "mobile",
 		},
 	},
 }

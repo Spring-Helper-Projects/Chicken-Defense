@@ -3,10 +3,11 @@ return {
 		acceleration = 1,
 		bmcode = "1",
 		brakerate = 8,
-		buildcostenergy = 12320,
-		buildcostmetal = 396,
+		buildcostenergy = 1,
+		buildcostmetal = 500,
 		builder = false,
-		buildtime = 180000,
+		buildpic = "chicken_unitpics/chickenr3.png",
+		buildtime = 1,
 		canattack = true,
 		canguard = true,
 		canmove = true,
@@ -71,6 +72,7 @@ return {
 		},
 		weapondefs = {
 			meteorlauncher = {
+				interceptedByShieldType   = 4,
 				areaofeffect = 750,
 				avoidfriendly = 0,
 				cegtag = "nuketrail-roost",
@@ -102,6 +104,9 @@ return {
 				maindir = "0 0 1",
 				onlytargetcategory = "NOTAIR LIGHT ARMORED BUILDING",
 			},
+		},
+		customparams = {
+			unittype = "mobile",
 		},
 	},
 }

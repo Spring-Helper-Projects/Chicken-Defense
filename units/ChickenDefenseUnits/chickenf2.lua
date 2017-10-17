@@ -5,10 +5,11 @@ return {
 		attackrunlength = 32,
 		bmcode = "1",
 		brakerate = 0.4,
-		buildcostenergy = 50,
-		buildcostmetal = 50,
+		buildcostenergy = 1,
+		buildcostmetal = 5,
 		builder = false,
-		buildtime = 4000,
+		buildpic = "chicken_unitpics/chickenf2.png",
+		buildtime = 1,
 		canattack = true,
 		canfly = true,
 		canguard = true,
@@ -42,11 +43,12 @@ return {
 		noautofire = false,
 		nochasecategory = "VTOL",
 		objectname = "ChickenDefenseModels/chickenf1.s3o",
+		radardistance = 500,
 		script = "ChickenDefenseScripts/chickenf2.cob",
 		seismicsignature = 0,
 		selfdestructas = "TALON_DEATH",
 		side = "THUNDERBIRDS",
-		sightdistance = 1400,
+		sightdistance = 500,
 		smoothanim = true,
 		steeringmode = "2",
 		tedclass = "VTOL",
@@ -67,6 +69,7 @@ return {
 		},
 		weapondefs = {
 			weapon = {
+				interceptedByShieldType   = 4,
 				accuracy = 300,
 				areaofeffect = 200,
 				avoidfeature = false,
@@ -99,6 +102,9 @@ return {
 			[1] = {
 				def = "WEAPON",
 			},
+		},
+		customparams = {
+			unittype = "mobile",
 		},
 	},
 }

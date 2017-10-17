@@ -3,10 +3,11 @@ return {
 		acceleration = 3,
 		bmcode = "1",
 		brakerate = 3,
-		buildcostenergy = 174,
-		buildcostmetal = 174,
+		buildcostenergy = 1,
+		buildcostmetal = 75,
 		builder = false,
-		buildtime = 7000,
+		buildpic = "chicken_unitpics/chickens2.png",
+		buildtime = 1,
 		canattack = true,
 		canguard = true,
 		canmove = true,
@@ -75,6 +76,7 @@ return {
 		},
 		weapondefs = {
 			waterweapon = {
+				interceptedByShieldType   = 4,
 				areaofeffect = 16,
 				avoidfriendly = 0,
 				burnblow = 1,
@@ -104,6 +106,7 @@ return {
 				},
 			},
 			weapon = {
+				interceptedByShieldType   = 4,
 				areaofeffect = 16,
 				avoidfeature = 0,
 				avoidfriendly = 0,
@@ -148,6 +151,9 @@ return {
 				maindir = "0 0 1",
 				maxangledif = 160,
 			},
+		},
+		customparams = {
+			unittype = "mobile",
 		},
 	},
 }

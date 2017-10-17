@@ -5,10 +5,11 @@ return {
 		autoheal = 50,
 		bmcode = "1",
 		brakerate = 0.7,
-		buildcostenergy = 15000,
-		buildcostmetal = 250,
+		buildcostenergy = 1,
+		buildcostmetal = 75,
 		builder = false,
-		buildtime = 3000,
+		buildpic = "chicken_unitpics/chickenr2.png",
+		buildtime = 1,
 		canguard = true,
 		canmove = true,
 		canpatrol = true,
@@ -65,6 +66,7 @@ return {
 		},
 		weapondefs = {
 			chaseweapon = {
+				interceptedByShieldType   = 4,
 				craterboost = 0,
 				cratermult = 0,
 				explosiongenerator = "custom:chickenspike-large-sparks-burn",
@@ -134,6 +136,9 @@ return {
 				maxangledif = 180,
 				onlytargetcategory = "NOTAIR LIGHT ARMORED BUILDING",
 			},
+		},
+		customparams = {
+			unittype = "mobile",
 		},
 	},
 }

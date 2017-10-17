@@ -6,11 +6,11 @@ return {
 		bankscale = "1",
 		bmcode = "1",
 		brakerate = 0.2,
-		buildcostenergy = 2200,
-		buildcostmetal = 72,
+		buildcostenergy = 1,
+		buildcostmetal = 20,
 		builder = false,
-		buildpic = "chicken_pidgeon.png",
-		buildtime = 1100,
+		buildpic = "chicken_unitpics/chickenw1d.png",
+		buildtime = 1,
 		cancrash = false,
 		canfly = true,
 		canguard = true,
@@ -70,6 +70,7 @@ return {
 		},
 		weapondefs = {
 			weapon = {
+				interceptedByShieldType   = 4,
 				accuracy = 200,
 				areaofeffect = 32,
 				avoidfriendly = false,
@@ -106,6 +107,9 @@ return {
 				maindir = "0 0 1",
 				maxangledif = 180,
 			},
+		},
+		customparams = {
+			unittype = "mobile",
 		},
 	},
 }

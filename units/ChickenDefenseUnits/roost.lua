@@ -5,11 +5,12 @@ return {
 		autoheal = 1.8,
 		bmcode = "0",
 		brakerate = 0,
-		buildcostenergy = 25000,
-		buildcostmetal = 400,
+		buildcostenergy = 1,
+		buildcostmetal = 1,
 		builddistance = 90,
 		builder = true,
-		buildtime = 7000,
+		buildpic = "chicken_unitpics/roost.png",
+		buildtime = 1,
 		category = "BIO",
 		collisionvolumeoffsets = "0 0 0",
 		collisionvolumescales = "56 11 56",
@@ -52,6 +53,7 @@ return {
 		},
 		weapondefs = {
 			weapon = {
+				interceptedByShieldType   = 4,
 				areaofeffect = 450,
 				avoidfriendly = 0,
 				cegtag = "nuketrail-roost",
@@ -84,6 +86,9 @@ return {
 			[1] = {
 				def = "WEAPON",
 			},
+		},
+		customparams = {
+			unittype = "mobile",
 		},
 	},
 }

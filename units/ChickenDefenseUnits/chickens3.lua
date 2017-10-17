@@ -4,11 +4,12 @@ return {
 		airstrafe = true,
 		autoheal = 7,
 		brakerate = 3.5,
-		buildcostenergy = 2200,
-		buildcostmetal = 72,
+		buildcostenergy = 1,
+		buildcostmetal = 50,
 		builder = false,
 		buildpic = "chicken_pidgeon.png",
-		buildtime = 1700,
+		buildpic = "chicken_unitpics/chickens3.png",
+		buildtime = 1,
 		canfly = true,
 		canguard = true,
 		canland = true,
@@ -61,6 +62,7 @@ return {
 		},
 		weapondefs = {
 			weapon = {
+				interceptedByShieldType   = 4,
 				accuracy = 1100,
 				areaofeffect = 24,
 				avoidfriendly = false,
@@ -96,6 +98,9 @@ return {
 				maindir = "0 0 1",
 				maxangledif = 180,
 			},
+		},
+		customparams = {
+			unittype = "mobile",
 		},
 	},
 }

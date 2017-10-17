@@ -3,10 +3,11 @@ return {
 		acceleration = 1.25,
 		bmcode = "1",
 		brakerate = 2,
-		buildcostenergy = 5280,
-		buildcostmetal = 170,
+		buildcostenergy = 1,
+		buildcostmetal = 75,
 		builder = false,
-		buildtime = 7000,
+		buildpic = "chicken_unitpics/chickenc1.png",
+		buildtime = 1,
 		canattack = true,
 		canguard = true,
 		canmove = true,
@@ -68,6 +69,7 @@ return {
 		},
 		weapondefs = {
 			weapon = {
+				interceptedByShieldType   = 4,
 				accuracy = 256,
 				areaofeffect = 96,
 				avoidfeature = 0,
@@ -107,6 +109,9 @@ return {
 				maindir = "0 0 1",
 				maxangledif = 110,
 			},
+		},
+		customparams = {
+			unittype = "mobile",
 		},
 	},
 }

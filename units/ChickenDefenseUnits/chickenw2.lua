@@ -7,11 +7,11 @@ return {
 		bankscale = "1",
 		bmcode = "1",
 		brakerate = 0.2,
-		buildcostenergy = 2200,
-		buildcostmetal = 72,
+		buildcostenergy = 1,
+		buildcostmetal = 50,
 		builder = false,
-		buildpic = "chicken_pidgeon.png",
-		buildtime = 1300,
+		buildpic = "chicken_unitpics/chickenw2.png",
+		buildtime = 1,
 		cancrash = false,
 		canfly = true,
 		canguard = true,
@@ -69,6 +69,7 @@ return {
 		},
 		weapondefs = {
 			weapon = {
+				interceptedByShieldType   = 4,
 				areaofeffect = 32,
 				avoidfriendly = false,
 				burnblow = true,
@@ -108,6 +109,9 @@ return {
 				maxangledif = 90,
 				onlytargetcategory = "VTOL",
 			},
+		},
+		customparams = {
+			unittype = "mobile",
 		},
 	},
 }

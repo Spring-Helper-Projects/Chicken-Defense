@@ -5,10 +5,11 @@ return {
 		autoheal = 75,
 		bmcode = "1",
 		brakerate = 2,
-		buildcostenergy = 2000000,
-		buildcostmetal = 50000,
+		buildcostenergy = 1,
+		buildcostmetal = 500,
 		builder = false,
-		buildtime = 1000000,
+		buildpic = "chicken_unitpics/vh_chickenq.png",
+		buildtime = 1,
 		canattack = true,
 		canguard = true,
 		canmove = true,
@@ -72,6 +73,7 @@ return {
 		},
 		weapondefs = {
 			goo = {
+				interceptedByShieldType   = 4,
 				accuracy = 1200,
 				areaofeffect = 200,
 				avoidfeature = 0,
@@ -109,6 +111,7 @@ return {
 				},
 			},
 			melee = {
+				interceptedByShieldType   = 4,
 				areaofeffect = 60,
 				avoidfeature = 0,
 				avoidfriendly = 0,
@@ -136,6 +139,7 @@ return {
 				},
 			},
 			spores1 = {
+				interceptedByShieldType   = 4,
 				areaofeffect = 96,
 				avoidfriendly = 0,
 				burnblow = 1,
@@ -180,6 +184,7 @@ return {
 				},
 			},
 			spores2 = {
+				interceptedByShieldType   = 4,
 				areaofeffect = 96,
 				avoidfeature = 0,
 				avoidfriendly = false,
@@ -224,6 +229,7 @@ return {
 				},
 			},
 			spores3 = {
+				interceptedByShieldType   = 4,
 				areaofeffect = 64,
 				avoidfriendly = false,
 				burnblow = 1,
@@ -291,6 +297,9 @@ return {
 				maindir = "0 0 1",
 				maxangledif = 180,
 			},
+		},
+		customparams = {
+			unittype = "mobile",
 		},
 	},
 }

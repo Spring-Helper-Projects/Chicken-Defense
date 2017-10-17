@@ -3,10 +3,11 @@ return {
 		acceleration = 0.36,
 		bmcode = "1",
 		brakerate = 0.2,
-		buildcostenergy = 2326,
-		buildcostmetal = 123,
+		buildcostenergy = 1,
+		buildcostmetal = 75,
 		builder = false,
-		buildtime = 3000,
+		buildpic = "chicken_unitpics/chickenh3.png",
+		buildtime = 1,
 		canattack = true,
 		canguard = true,
 		canmove = true,
@@ -68,6 +69,7 @@ return {
 		},
 		weapondefs = {
 			weapon = {
+				interceptedByShieldType   = 4,
 				areaofeffect = 24,
 				avoidfeature = 0,
 				avoidfriendly = 0,
@@ -102,6 +104,9 @@ return {
 				maxangledif = 180,
 				onlytargetcategory = "NOTAIR LIGHT ARMORED BUILDING",
 			},
+		},
+		customparams = {
+			unittype = "mobile",
 		},
 	},
 }

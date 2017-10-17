@@ -5,11 +5,12 @@ return {
 		autoheal = 27,
 		bmcode = "1",
 		brakerate = 0.6,
-		buildcostenergy = 6000,
-		buildcostmetal = 200,
+		buildcostenergy = 1,
+		buildcostmetal = 75,
 		builder = false,
 		buildpic = "",
-		buildtime = 5000,
+		buildpic = "chicken_unitpics/chickenp1.png",
+		buildtime = 1,
 		canguard = true,
 		canmove = true,
 		canpatrol = true,
@@ -65,6 +66,7 @@ return {
 		},
 		weapondefs = {
 			chaseweapon = {
+				interceptedByShieldType   = 4,
 				craterboost = 0,
 				cratermult = 0,
 				explosiongenerator = "custom:chickenspike-large-sparks-burn",
@@ -133,6 +135,9 @@ return {
 				maindir = "0 0 1",
 				maxangledif = 180,
 			},
+		},
+		customparams = {
+			unittype = "mobile",
 		},
 	},
 }
